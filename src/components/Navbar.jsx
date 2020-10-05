@@ -5,6 +5,7 @@ import { MdFingerprint } from 'react-icons/md';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { navbarlinks } from './NavData';
+import { logDOM } from '@testing-library/react';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -19,7 +20,7 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <MdFingerprint className='navbar-icon' />
+              <img className="navbar-icon" src={'/images/logo.png'} />
               EDM & Ravers
             </Link>
             <div className='menu-icon' onClick={handleClick}>

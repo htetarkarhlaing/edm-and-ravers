@@ -1,10 +1,21 @@
 import React from 'react';
+import './Home.css';
 
 function Home() {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <section>
+            <div className="row">
+                <div className="col-md-4 col-6">
+
+                </div>
+                <div className="col-md-4 col-6">
+
+                </div>
+                <div className="col-md-4 col-6">
+                    
+                </div>
+            </div>
+        </section>
     )
 }
 

@@ -6,9 +6,15 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div className="row mx-2 bt-4">
-        <div className="col-md-6 col-12 footer-input pb-4">
-          <form>
+      <div className="row mx-2 pt-4">
+        <div className="col-md-6 col-12 pb-4">
+          <p className="subscribe-text">
+          Join our exclusive membership to receive the latest news and trends.
+          </p>
+          <p className="subscribe-text-small">
+          You can unsubscribe at any time.
+          </p>
+          <form className="footer-input">
             <input
               className="footer-input-box"
               name="email"
@@ -43,7 +49,7 @@ function Footer() {
       <hr className="footer-hr" />
 
       <div className="footer-copyright">
-        <h4>&#169;2019-2020 EDM & Ravers.</h4>
+        <h4>&#169;2019-2020 EDM & Ravers.<Link to='/'>Privacy policy</Link></h4>
       </div>
     </div>
   );

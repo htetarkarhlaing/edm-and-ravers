@@ -37,6 +37,8 @@
   }
   
   .navbar-icon {
+    width: 30px;
+    height: 30px;
     margin-right: 0.5rem;
   }
   
