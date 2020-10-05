@@ -1,0 +1,100 @@
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-hr {
+    width: 90%;
+    height: 3px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient( to right, #fc00ff, #00dbde)
+}
+
+.footer-input {
+  display: flex;
+}
+
+.footer-links {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links h2 {
+  color: #7dccff;
+  border-bottom: 2px solid transparent;
+}
+
+.footer-links h2:hover {
+  border-image: linear-gradient(to right, #fc00ff, #00dbde);
+  border-image-slice: 1;
+}
+
+.footer-links a {
+  color: #1190cb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-copyright h4 {
+  text-align: center;
+  color: #1190cb;
+  padding-bottom: 10px;
+}
+
+.footer-input{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.footer-input-box {
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.footer-input-box::placeholder {
+  color: #1190cb;
+  opacity: 1; /* Firefox */
+}
+
+.footer-input-box:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #1190cb;
+}
+
+.footer-input-box::-ms-input-placeholder { /* Microsoft Edge */
+ color: #1190cb;
+}
+
+.footer-input-btn {
+  display: inline-block;
+  height: 30px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  border: none;
+  border-radius: 10px;
+}
+
+.footer-input-btn::after {
+  position: absolute;
+  top: -4px; bottom: -4px;
+  left: -4px; right: -4px;
+  background: linear-gradient(red, blue);
+  content: '';
+  z-index: -1;
+  border-radius: 16px;
+}

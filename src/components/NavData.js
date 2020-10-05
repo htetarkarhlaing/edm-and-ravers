@@ -1,4 +1,4 @@
-export const navbarItems = [
+export const navbarlinks = [
     {
         name: 'Home',
         to: '/',
@@ -19,14 +19,14 @@ export const navbarItems = [
     },
     {
         name: 'Gernes',
-        to: '/genres',
+        to: '/gernes',
         class: 'nav-item',
         subClass: 'nav-links'
     },
     {
         name: 'About Us',
-        to: '/aboutUs',
+        to: '/aboutus',
         class: 'nav-item',
         subClass: 'nav-links'
     }
-]
+];
