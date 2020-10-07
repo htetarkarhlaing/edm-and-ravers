@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { MdFingerprint } from 'react-icons/md';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { navbarlinks } from './NavData';
-import { logDOM } from '@testing-library/react';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -20,7 +18,7 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <img className="navbar-icon" src={'/images/logo.png'} />
+              <img className="navbar-icon" src={'/images/logo.png'} alt="Logo"/>
               EDM & Ravers
             </Link>
             <div className='menu-icon' onClick={handleClick}>
